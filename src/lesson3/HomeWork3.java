@@ -137,6 +137,10 @@ public class HomeWork3 {
         return min;
     }
 
+    /**
+     * Написать метод, в который передается не пустой одномерный целочисленный массив, метод должен вернуть true,
+     * если в массиве есть место, в котором сумма левой и правой части массива равны.
+     */
     public static boolean checkSum(int[] arr) {
         int summ = 0;
         for (int i = 0; i < arr.length; i++) {
